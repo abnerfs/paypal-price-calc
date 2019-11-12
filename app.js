@@ -1,16 +1,16 @@
 if(process.argv.length != 3)
 {
-    console.log("Informe o valor a ser calculado");
+    console.log("Provide the value");
     process.exit(0);
 }
 
-const valor = parseFloat(process.argv[2]);
+const valueWanted = parseFloat(process.argv[2]);
 
-const taxaFixa = 0.6;
-const percentual = 4.79;
+const fixedTax = 0.6;
+const percTax = 4.79;
 
-const percentualCalc = (100 - percentual) / 100.0;
-const resultado =  (valor + taxaFixa) / percentualCalc
+const percCalc = (100 - percTax) / 100.0;
+const result =  (valueWanted + fixedTax) / percCalc;
 
-console.log('Resultado: ' + resultado);
-console.log('Resultado arredondado: ' + Math.ceil(resultado));
+console.log('Result: ' + result);
+console.log('Rounded result: ' + Math.ceil(result));
