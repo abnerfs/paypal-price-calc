@@ -10,3 +10,5 @@ You probably will need to change the paypal fees that are hardcoded in the progr
 
 - **fixedFee**: Fixed fee that is charged (default **60 cents**)
 - **percFee**: Percentual fee that is charged (default **4.79%**)
+
+- To see current fees go to https://www.paypal.com/br/webapps/mpp/paypal-fees
